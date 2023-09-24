@@ -65,7 +65,7 @@ form{
         width: 15vw;
 }
 .card{
-    display: flex;
+    display: flex table-column;
     justify-content: center;
     gap: 50px;
     width: 1000px ;
@@ -74,7 +74,7 @@ form{
 }
 .card{
         display: flex;
-        align-items: flex-start;
+        align-items: first baseline;
         gap: 20px;
         padding: 30px;
         width: 350px;
